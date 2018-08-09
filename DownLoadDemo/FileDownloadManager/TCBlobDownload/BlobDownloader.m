@@ -5,8 +5,6 @@
 //  Copyright (c) 2013 Thibault Charbonnier. All rights reserved.
 //
 
-
-
 #import "BlobDownloader.h"
 
 static const double kBufferSize = 1000*1000; // 1 MB
@@ -17,7 +15,6 @@ NSString * const BlobDownloadErrorDomain = @"com.thibaultcha.Blobdownload";
 NSString * const BlobDownloadErrorHTTPStatusKey = @"BlobDownloadErrorHTTPStatusKey";
 
 @interface BlobDownloader ()
-
 
 // Public
 @property (nonatomic, strong, readwrite) NSMutableURLRequest *fileRequest;

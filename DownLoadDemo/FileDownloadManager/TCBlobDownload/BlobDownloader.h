@@ -64,9 +64,7 @@ typedef NS_ENUM(NSUInteger, BlobDownloadState) {
 
 @protocol BlobDownloaderDelegate;
 
-
 #pragma mark - BlobDownloader
-
 
 /**
  `BlobDownloader` is a subclass of Cocoa's `NSOperation`. It's purpose is to be executed by the `BlobDownloaderManager` singleton to download large files in background threads.
@@ -223,9 +221,7 @@ typedef NS_ENUM(NSUInteger, BlobDownloadState) {
 
 @end
 
-
 #pragma mark - BlobDownloader Delegate
-
 
 /**
  The `BlobDownloaderDelegate` protocol defines the methods supported by `BlobDownloader` to notify you of the state of the download.
